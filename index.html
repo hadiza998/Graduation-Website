@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      Purpose:
+      - Link to the favicon (small image that appears in the browser tab)
+      - Link to the CSS file (used to style the webpage)
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hadiza's Big Day</title>
+    <style></style>
+    <link rel="icon" href="img/Image_icon.png" />
+  </head>
+
+  <body>
+    <!-- PAGE HEADER -->
+    <header class="site-header">
+      <div class="header-container">
+        <div id="header-left">
+          <img
+            id="header-img"
+            src="img/Image icon.png"
+            alt="Graduation party icon"
+          />
+        </div>
+
+        <div id="header-right">
+          <div class="header-text">
+            <h1 class="header-title">Hadiza's Big Day</h1>
+            <p class="subtitle">A Night To Remember</p>
+
+            <div class="header-actions">
+              <button class="header-button" data-scroll-target="#schedule">
+                Event Menu
+              </button>
+              <button class="header-button" data-scroll-target="#gallery">
+                Gallery
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About the Event</a></li>
+        <li><a href="#expect">What to Expect</a></li>
+        <li><a href="#schedule">Event Schedule</a></li>
+        <li><a href="#rsvp">RSVP</a></li>
+        <li>
+          <button id="theme-button" type="button">Toggle Dark Mode</button>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- ABOUT -->
+      <section id="about" class="section section-about">
+        <h2>About the Event</h2>
+
+        <div class="about-content">
+          <div class="about-video-wrapper">
+            <div class="video-responsive">
+              <iframe
+                src="https://www.youtube.com/embed/EdwAiHpN1Mg?si=_MnRkkxx8TBly00G"
+                title="Graduation celebration inspiration video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <p class="about-text">
+            Hadiza's graduation party is a celebration of years of hard work, dedication, and success. The event will mark the milestone of graduating in Fall 2026 and stepping into the next chapter of life. Family, friends, classmates, and teachers are invited to join in honoring this special day. It will be a classy and memorable evening filled with joy, gratitude, and togetherness.
+          </p>
+        </div>
+      </section>
+
+      <!-- WHAT TO EXPECT -->
+      <section id="expect" class="section">
+        <h2>What to Expect</h2>
+        <p class="tagline">A night full of love, laughter, and celebration.</p>
+
+        <ul class="expect-list">
+          <li>
+            <b>Elegant Atmosphere:</b>
+            <i>Soft lights, music, and a warm, welcoming vibe.</i>
+          </li>
+          <li>
+            <b>Good Food & Music:</b>
+            <i>A long dinner menu and a playlist that keeps the energy up.</i>
+          </li>
+          <li>
+            <b>Memories & Photos:</b>
+            <i>
+              Plenty of moments to capture and share from Hadiza’s big milestone.
+            </i>
+          </li>
+        </ul>
+      </section>
+
+      <!-- EVENT SCHEDULE -->
+      <section id="schedule" class="section section-schedule">
+        <h2>Event Schedule</h2>
+
+        <div class="schedule-grid">
+          <!-- Guest Arrival -->
+          <article class="schedule-card">
+            <img
+              src="img/hug2.PNG"
+              alt="Guests arriving at the venue"
+              width="290"
+            />
+            <h3 id="guest">Guest Arrival &amp; Welcome</h3>
+            <p>
+              Guests will arrive and be greeted with refreshments and light
+              music as everyone gathers to celebrate.
+            </p>
+            <p class="schedule-time">6:00 PM – 7:00 PM</p>
+          </article>
+
+          <!-- Dinner & Toasts -->
+          <article class="schedule-card">
+            <img
+              src="img/dinner.PNG"
+              alt="Champagne glasses raised for a toast"
+              width="250"
+            />
+            <h3 id="diner">Dinner &amp; Toasts</h3>
+            <p>
+              A formal dinner will be served, followed by speeches and
+              toasts honoring Hadiza’s achievements.
+            </p>
+            <p class="schedule-time">7:00 PM – 8:30 PM</p>
+          </article>
+
+          <!-- Event Activity 2 -->
+          <article class="schedule-card">
+            <img
+              src="img/dance.PNG"
+              alt="Guests celebrating and dancing"
+              width="100"
+            />
+            <h3>Dance &amp; Celebration</h3>
+            <p>
+              After dinner, everyone is invited to the dance floor to celebrate,
+              take photos, and enjoy the rest of the night.
+            </p>
+            <p class="schedule-time">8:30 PM – Late</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- GALLERY (placeholder section for “Gallery” button) -->
+      <section id="gallery" class="section section-gallery">
+        <h2>Photo Highlights</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img
+              src="img/hat.PNG"
+              alt="Guests arriving at the celebration"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/hat.PNG"
+              alt="Toast glasses ready for celebration"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img src="img/hat.PNG" alt="People dancing and having fun" />
+
+          </figure>
+        </div>
+      </section>
+
+      <!-- RSVP SECTION -->
+      <section id="rsvp" class="section section-rsvp">
+        <h2>RSVP</h2>
+        <p id="rsvp-count">⭐ 3 people have RSVP'd to this event!</p>
+
+        <div class="rsvp-container">
+          <div class="rsvp-para">
+            <p>
+              Hey everyone! I can’t believe the big day is finally here it’s
+              been a long journey, and I’m so excited to celebrate this special
+              moment with the people who mean the most to me.
+            </p>
+            <p>
+              Hadiza’s Big Day is going to be full of laughter, dancing, good
+              vibes, and a whole lot of food!
+            </p>
+            <p>
+              Whether you’ve been part of my journey from day one or you’re just
+              joining the celebration, I’d love for you to be there to make new
+              memories together.
+            </p>
+            <p>
+              Go ahead and RSVP to save your spot. And yes, your name will pop up
+              on the guest list so you know you’re officially part of this party
+              😄. Can’t wait to see you !
+            </p>
+          </div>
+
+          <div class="rsvp-participants">
+            <p>🩷 Ibrahim from Georgia has RSVP'd.</p>
+            <p>🩷 Marina from Canada has RSVP'd.</p>
+            <p>🩷 Kim from Florida has RSVP'd.</p>
+          </div>
+        </div>
+
+        <!-- RSVP FORM -->
+        <div class="form-container">
+          <form id="rsvp-form" title="rsvp-form">
+            <label for="rsvp-name">Full Name:</label>
+            <input
+              type="text"
+              id="rsvp-name"
+              name="rsvp-name"
+              placeholder="Enter your full name"
+              required
+            />
+
+            <label for="rsvp-email">Email Address:</label>
+            <input
+              type="email"
+              id="rsvp-email"
+              name="rsvp-email"
+              placeholder="you@example.com"
+              required
+            />
+
+            <label for="rsvp-state">Home State:</label>
+            <input
+              type="text"
+              id="rsvp-state"
+              name="rsvp-state"
+              placeholder="Enter your state"
+              required
+            />
+
+            <button id="rsvp-button" type="submit">Submit RSVP</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- SUCCESS MODAL -->
+      <div id="success-modal" class="modal" aria-hidden="true">
+        <div class="modal-container">
+          <div class="modal-item">
+            <p id="modal-text">Your RSVP was successful! 🎉</p>
+          </div>
+          <div class="modal-item">
+            <img
+              src="img/success2.png"
+              alt="Confetti and celebration illustration"
+              id="modal-image"
+              width="150"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- LINKS / RESOURCES -->
+      <section class="section section-links">
+        <h2>Links</h2>
+
+        <a class="block" href="https://www.codepath.org" target="_blank">
+          <article>
+            <h3>Learn with CodePath</h3>
+            <p>Explore courses and opportunities to grow as a developer.</p>
+          </article>
+        </a>
+
+        <a
+          class="block"
+          href="https://www.coursera.org/articles/what-is-a-hackathon"
+          target="_blank"
+        >
+          <article>
+            <h3>What Is a Hackathon?</h3>
+            <p>Find out why hackathons are useful and fun to join.</p>
+          </article>
+        </a>
+
+        <a
+          class="block"
+          href="https://redditgamesandpuzzles.devpost.com"
+          target="_blank"
+        >
+          <article>
+            <h3>Reddit Games and Puzzles Hackathon</h3>
+            <p>See a real example of an online hackathon event.</p>
+          </article>
+        </a>
+
+        <a
+          class="block"
+          href="https://www.computerscience.org/careers/web-developer/"
+          target="_blank"
+        >
+          <article>
+            <h3>What Is a Web Developer?</h3>
+            <p>Learn more about the web development career path.</p>
+          </article>
+        </a>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>&copy; 2026 Hadiza's Big Day • Designed for CodePath WEB101</p>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="index.js"></script>
+  </body>
+</html>
